@@ -67,8 +67,8 @@ I turn YAML, caffeine, and mildly concerning terminal sessions into infrastructu
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sauravrana646/sauravrana646/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sauravrana646/sauravrana646/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution snake" src="https://raw.githubusercontent.com/sauravrana646/sauravrana646/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sauravrana646/sauravrana646/output/github-contribution-grid-snake-dark.svg?v=2">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sauravrana646/sauravrana646/output/github-contribution-grid-snake.svg?v=2">
+    <img alt="github contribution snake" src="https://raw.githubusercontent.com/sauravrana646/sauravrana646/output/github-contribution-grid-snake-dark.svg?v=2">
   </picture>
 </div>
