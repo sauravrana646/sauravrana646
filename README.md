@@ -15,26 +15,15 @@ I turn YAML, caffeine, and mildly concerning terminal sessions into infrastructu
 - 📫 Ping me: **[sauravrana646@gmail.com](mailto:sauravrana646@gmail.com)**
 - ⚡ Fun fact: **Five nines is the goal. DNS is the plot twist.**
 
-<br>
+<img width="100%" src="assets/divider.svg" alt="">
 
 ## 🤝 Find me in the wild
 
-<div align="center">
-  <a href="https://github.com/sauravrana646">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <a href="https://medium.com/@sauravrana646">
-    <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"/>
-  </a>
-  <a href="https://twitter.com/reboot646">
-    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/>
-  </a>
-  <a href="mailto:sauravrana646@gmail.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-</div>
+<p align="center">
+  <a href="https://github.com/sauravrana646"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>&nbsp;<a href="https://medium.com/@sauravrana646"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"/></a>&nbsp;<a href="https://twitter.com/reboot646"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>&nbsp;<a href="mailto:sauravrana646@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+</p>
 
-<br>
+<img width="100%" src="assets/divider.svg" alt="">
 
 ## 💻 Weapons of mass automation
 
@@ -74,6 +63,8 @@ I turn YAML, caffeine, and mildly concerning terminal sessions into infrastructu
   ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=sauravrana646&theme=github-dark&hide_border=true&area=true&custom_title=Contribution%20heatmap%20%28aka%20proof%20of%20life%29)
 
 </div>
+
+<img width="100%" src="assets/divider.svg" alt="">
 
 ## 🐍 Snake eats commits
 
