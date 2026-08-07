@@ -1,27 +1,29 @@
 <div align="center">
-  <img width="100%" src="assets/banner/new_banner.png" alt="Saurav Rana — DevOps">
+  <img width="100%" src="assets/banner/saurav-rana-banner.svg" alt="Saurav Rana — DevOps">
 
   <br>
 
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=680&height=45&lines=Bridging+the+silos+between+Devs+and+Ops;Kubernetes+%7C+AWS+%7C+CI%2FCD;I+learn+by+breaking+things+(on+purpose)" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=C9CACD&center=true&vCenter=true&width=720&height=45&lines=Building+for+5+nines%2C+until+DNS+happens" alt="Typing SVG" />
   </a>
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="">
 
-I'm a DevOps enthusiast with a passion for learning the DevOps landscape. I love exploring how small pieces of code come together to form state-of-the-art tools.
+I turn YAML, caffeine, and mildly concerning terminal sessions into infrastructure that *usually* stays up. Motto stays the same as `motto.txt`:
 
-- 🔭 I’m currently working on **Kubernetes**
-- 🌱 I’m currently learning **Cloud Controller Manager**
-- 📝 I regularly write articles on **latest tech** and my **experiences**
-- 💬 Ask me about: **DevOps**
-- 📫 How to reach me: **[sauravrana646@gmail.com](mailto:sauravrana646@gmail.com)**
-- ⚡ Fun fact: **I love to experiment and learn stuff the hard way**
+> **Building for 5 nines, until DNS happens**
+
+- 🔭 Currently shipping: **Kubernetes clusters that behave (mostly)**
+- 🌱 Currently debugging: **why the pod hates me specifically**
+- 🧪 Lab notes: **I write about the scars so you don't have to collect them**
+- 💬 Ask me about: **pipelines, platforms, and “it works on my cluster”**
+- 📫 Ping me: **[sauravrana646@gmail.com](mailto:sauravrana646@gmail.com)**
+- ⚡ Fun fact: **Five nines is the goal. DNS is the plot twist.**
 
 <br>
 
-## 🤝 Connect with me
+## 🤝 Find me in the wild
 
 <div align="center">
   <a href="https://github.com/sauravrana646">
@@ -40,7 +42,7 @@ I'm a DevOps enthusiast with a passion for learning the DevOps landscape. I love
 
 <br>
 
-## 💻 Talking to Computers Using
+## 💻 Weapons of mass automation
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=python,bash,linux,kubernetes,aws,terraform,ansible,jenkins,git,githubactions&theme=dark" alt="Skills" />
@@ -50,7 +52,7 @@ I'm a DevOps enthusiast with a passion for learning the DevOps landscape. I love
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="">
 
-## 📊 Stats for Nerds
+## 📊 Stats for nerds (the good kind)
 
 <div align="center">
 
@@ -63,11 +65,11 @@ I'm a DevOps enthusiast with a passion for learning the DevOps landscape. I love
 
   <br>
 
-  ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=sauravrana646&theme=github-dark&hide_border=true&area=true&custom_title=Contribution%20Activity)
+  ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=sauravrana646&theme=github-dark&hide_border=true&area=true&custom_title=Contribution%20heatmap%20%28aka%20proof%20of%20life%29)
 
 </div>
 
-## 🐍 Contribution Snake
+## 🐍 Snake eats commits
 
 <div align="center">
   <picture>

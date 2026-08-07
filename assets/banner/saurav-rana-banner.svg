@@ -1,0 +1,68 @@
+<svg width="1500" height="500" viewBox="0 0 1500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0b0d"/>
+      <stop offset="100%" stop-color="#050506"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9a9a9a" stop-opacity="0"/>
+      <stop offset="60%" stop-color="#9a9a9a" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#e8e8e8" stop-opacity="0.9"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+    <clipPath id="clipAll">
+      <rect width="1500" height="500" rx="0"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1500" height="500" fill="url(#bg)"/>
+
+  <!-- Matrix rain (subtle, monochrome) -->
+  <g clip-path="url(#clipAll)" font-family="'JetBrains Mono', monospace" font-size="15" fill="url(#fade)" opacity="0.16">
+    <text x="50" y="28">01 10 1F A3 CD 0E 7B 9A 4C E1 22 6D 88 FF 3A 90 5C B1 7E 44 8B 2D</text>
+    <text x="80" y="54">rm -rf / --no-preserve-root -- kubectl get pods -n prod -- ssh root@10.0.0.4</text>
+    <text x="30" y="80">0x1F 0xA3 0x4C -- git push --force origin main -- terraform apply -auto-approve</text>
+    <text x="100" y="106">ping 8.8.8.8 -- traceroute -- nslookup -- iptables -L -n -- systemctl status nginx</text>
+    <text x="20" y="452">docker ps -a -- helm upgrade --install -- curl -s ifconfig.me -- htop</text>
+    <text x="70" y="424">01001000 01100101 01101100 01101100 01101111 00100000 01010111 01101111</text>
+    <text x="40" y="478">EXEC SIGTERM SIGKILL PID:8842 STATUS:0 -- crontab -e -- journalctl -xe</text>
+  </g>
+
+  <!-- Terminal window -->
+  <g filter="url(#soft)">
+    <rect x="90" y="70" width="1320" height="360" rx="10" fill="#0e0f12" stroke="#26282e" stroke-width="1.5"/>
+
+    <!-- Title bar -->
+    <rect x="90" y="70" width="1320" height="42" rx="10" fill="#151619"/>
+    <rect x="90" y="99" width="1320" height="13" fill="#151619"/>
+    <circle cx="123" cy="91" r="7" fill="#e0605a" opacity="0.55"/>
+    <circle cx="149" cy="91" r="7" fill="#e0b95a" opacity="0.55"/>
+    <circle cx="175" cy="91" r="7" fill="#5ec26a" opacity="0.55"/>
+    <text x="750" y="97" font-family="'JetBrains Mono', monospace" font-size="14" fill="#5c5e64" text-anchor="middle" letter-spacing="2">saurav@devops:~$</text>
+  </g>
+
+  <!-- Terminal content -->
+  <g font-family="'JetBrains Mono', monospace">
+    <text x="130" y="185" font-size="21" fill="#5c5e64">
+      <tspan fill="#7d7f86">$</tspan> whoami
+    </text>
+    <text x="130" y="235" font-size="40" fill="#c9cacd" font-weight="700" letter-spacing="0.5">
+      Saurav_Rana
+    </text>
+
+    <text x="130" y="300" font-size="21" fill="#5c5e64">
+      <tspan fill="#7d7f86">$</tspan> cat motto.txt
+    </text>
+    <text x="130" y="345" font-size="27" fill="#c9cacd" letter-spacing="0.3">
+      Building for 5 nines, until DNS happens<tspan id="cursor" fill="#f5f5f5">▌</tspan>
+    </text>
+
+    <animate xlink:href="#cursor" attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Role tag bottom right -->
+  <text x="1370" y="400" font-family="'JetBrains Mono', monospace" font-size="15" fill="#45474d" text-anchor="end" letter-spacing="1.5">[DEVOPS_ENGINEER::CLOUD]</text>
+</svg>
