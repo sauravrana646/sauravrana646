@@ -38,10 +38,22 @@ I turn YAML, caffeine, and mildly concerning terminal sessions into infrastructu
 
 ## 💻 Weapons of mass automation
 
+<p align="center">
+  <em>Loadout for shipping infrastructure without vibes-based devops.</em>
+</p>
+
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,bash,linux,kubernetes,aws,terraform,ansible,jenkins,git,githubactions&theme=dark" alt="Skills" />
-  <br><br>
-  <img height="170" alt="Coding" src="gifs/tools.gif"/>
+  <img width="100%" src="assets/arsenal.png" alt="Arsenal terminal - languages, cloud, CI/CD pipeline"/>
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=python,bash,linux&theme=dark" alt="Languages and OS"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=kubernetes,aws,terraform,ansible&theme=dark" alt="Cloud and IaC"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=jenkins,git,githubactions&theme=dark" alt="CI CD and SCM"/>
 </div>
 
 <img width="100%" src="assets/divider.svg" alt="">
