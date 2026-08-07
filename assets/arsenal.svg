@@ -1,67 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="360" viewBox="0 0 1100 360">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1100" height="360" viewBox="0 0 1100 360">
   <defs>
     <linearGradient id="abg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0a0b0d"/>
-      <stop offset="100%" stop-color="#050506"/>
+      <stop offset="0%" stop-color="#0b0e14"/>
+      <stop offset="100%" stop-color="#060810"/>
     </linearGradient>
   </defs>
 
   <rect width="1100" height="360" fill="url(#abg)"/>
 
-  <!-- Terminal: bottom leaves clear padding under pipeline -->
-  <rect x="40" y="24" width="1020" height="312" rx="10" fill="#0e0f12" stroke="#26282e" stroke-width="1.5"/>
-  <rect x="40" y="24" width="1020" height="38" rx="10" fill="#151619"/>
-  <rect x="40" y="48" width="1020" height="14" fill="#151619"/>
-  <circle cx="70" cy="43" r="6" fill="#e0605a" opacity="0.55"/>
-  <circle cx="92" cy="43" r="6" fill="#e0b95a" opacity="0.55"/>
-  <circle cx="114" cy="43" r="6" fill="#5ec26a" opacity="0.55"/>
-  <text x="550" y="48" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#5c5e64" letter-spacing="1.5">arsenal.sh - weapons of mass automation</text>
+  <rect x="40" y="24" width="1020" height="312" rx="10" fill="#0e121a" stroke="#2f3a4d" stroke-width="1.5"/>
+  <rect x="40" y="24" width="1020" height="38" rx="10" fill="#161b26"/>
+  <rect x="40" y="48" width="1020" height="14" fill="#161b26"/>
+  <circle cx="70" cy="43" r="6" fill="#ff6b63" opacity="0.9"/>
+  <circle cx="92" cy="43" r="6" fill="#f0c14a" opacity="0.9"/>
+  <circle cx="114" cy="43" r="6" fill="#56d364" opacity="0.9"/>
+  <text x="550" y="48" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#9aa0a8" letter-spacing="1.5">arsenal.sh - weapons of mass automation</text>
 
   <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
-    <text x="72" y="96" font-size="15" fill="#5c5e64"><tspan fill="#7d7f86">$</tspan> ./list-arsenal --ready</text>
+    <text x="72" y="96" font-size="15" fill="#9aa0a8"><tspan fill="#4C9AE0">$</tspan> ./list-arsenal --ready</text>
 
-    <rect x="72" y="118" width="300" height="88" rx="8" fill="#151619" stroke="#26282e"/>
-    <text x="90" y="144" font-size="12" fill="#5c5e64" letter-spacing="2">[ LANG / OS ]</text>
-    <text x="90" y="172" font-size="16" fill="#c9cacd">Python / Bash / Linux</text>
-    <text x="90" y="194" font-size="12" fill="#7d7f86">script it. ship it. sleep.</text>
+    <rect x="72" y="118" width="300" height="88" rx="8" fill="#161b26" stroke="#4C9AE0" stroke-opacity="0.55"/>
+    <text x="90" y="144" font-size="12" fill="#4C9AE0" letter-spacing="2">[ LANG / OS ]</text>
+    <text x="90" y="172" font-size="16" fill="#e8eaed">Python / Bash / Linux</text>
+    <text x="90" y="194" font-size="12" fill="#9ec1e6">script it. ship it. sleep.</text>
 
-    <rect x="400" y="118" width="300" height="88" rx="8" fill="#151619" stroke="#26282e"/>
-    <text x="418" y="144" font-size="12" fill="#5c5e64" letter-spacing="2">[ CLOUD / IaC ]</text>
-    <text x="418" y="172" font-size="16" fill="#c9cacd">K8s / AWS / Terraform</text>
-    <text x="418" y="194" font-size="12" fill="#7d7f86">Ansible for the last mile</text>
+    <rect x="400" y="118" width="300" height="88" rx="8" fill="#161b26" stroke="#E08A6A" stroke-opacity="0.55"/>
+    <text x="418" y="144" font-size="12" fill="#E08A6A" letter-spacing="2">[ CLOUD / IaC ]</text>
+    <text x="418" y="172" font-size="16" fill="#e8eaed">K8s / AWS / Terraform</text>
+    <text x="418" y="194" font-size="12" fill="#e0b5a0">Ansible for the last mile</text>
 
-    <rect x="728" y="118" width="300" height="88" rx="8" fill="#151619" stroke="#26282e"/>
-    <text x="746" y="144" font-size="12" fill="#5c5e64" letter-spacing="2">[ CI / CD ]</text>
-    <text x="746" y="172" font-size="16" fill="#c9cacd">Jenkins / Git / Actions</text>
-    <text x="746" y="194" font-size="12" fill="#7d7f86">pipelines &gt; hope</text>
+    <rect x="728" y="118" width="300" height="88" rx="8" fill="#161b26" stroke="#56d364" stroke-opacity="0.55"/>
+    <text x="746" y="144" font-size="12" fill="#56d364" letter-spacing="2">[ CI / CD ]</text>
+    <text x="746" y="172" font-size="16" fill="#e8eaed">Jenkins / Git / Actions</text>
+    <text x="746" y="194" font-size="12" fill="#8fd99a">pipelines &gt; hope</text>
 
-    <!-- Pipeline block with space above cards and below terminal edge -->
-    <text x="72" y="250" font-size="13" fill="#5c5e64"><tspan fill="#7d7f86">$</tspan> pipeline status</text>
+    <text x="72" y="250" font-size="13" fill="#9aa0a8"><tspan fill="#4C9AE0">$</tspan> pipeline status</text>
 
-    <rect x="72" y="268" width="110" height="32" rx="6" fill="#151619" stroke="#26282e"/>
-    <text x="127" y="288" text-anchor="middle" font-size="12" fill="#c9cacd">code</text>
-    <path d="M188 284 H220" stroke="#5c5e64" stroke-width="1.5" fill="none"/>
-    <polygon points="220,280 230,284 220,288" fill="#5c5e64"/>
+    <!-- Pipeline steps: soft staggered pulse -->
+    <g opacity="0.7">
+      <rect x="72" y="268" width="110" height="32" rx="6" fill="#161b26" stroke="#4C9AE0" stroke-opacity="0.85"/>
+      <text x="127" y="288" text-anchor="middle" font-size="12" fill="#e8eaed">code</text>
+      <path d="M188 284 H220" stroke="#4C9AE0" stroke-width="2" fill="none"/>
+      <polygon points="220,280 230,284 220,288" fill="#4C9AE0"/>
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="3.2s" begin="0s" repeatCount="indefinite"/>
+    </g>
 
-    <rect x="236" y="268" width="110" height="32" rx="6" fill="#151619" stroke="#26282e"/>
-    <text x="291" y="288" text-anchor="middle" font-size="12" fill="#c9cacd">build</text>
-    <path d="M352 284 H384" stroke="#5c5e64" stroke-width="1.5" fill="none"/>
-    <polygon points="384,280 394,284 384,288" fill="#5c5e64"/>
+    <g opacity="0.7">
+      <rect x="236" y="268" width="110" height="32" rx="6" fill="#161b26" stroke="#5DADE2" stroke-opacity="0.85"/>
+      <text x="291" y="288" text-anchor="middle" font-size="12" fill="#e8eaed">build</text>
+      <path d="M352 284 H384" stroke="#5DADE2" stroke-width="2" fill="none"/>
+      <polygon points="384,280 394,284 384,288" fill="#5DADE2"/>
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="3.2s" begin="0.4s" repeatCount="indefinite"/>
+    </g>
 
-    <rect x="400" y="268" width="110" height="32" rx="6" fill="#151619" stroke="#26282e"/>
-    <text x="455" y="288" text-anchor="middle" font-size="12" fill="#c9cacd">scan</text>
-    <path d="M516 284 H548" stroke="#5c5e64" stroke-width="1.5" fill="none"/>
-    <polygon points="548,280 558,284 548,288" fill="#5c5e64"/>
+    <g opacity="0.7">
+      <rect x="400" y="268" width="110" height="32" rx="6" fill="#161b26" stroke="#E08A6A" stroke-opacity="0.85"/>
+      <text x="455" y="288" text-anchor="middle" font-size="12" fill="#e8eaed">scan</text>
+      <path d="M516 284 H548" stroke="#E08A6A" stroke-width="2" fill="none"/>
+      <polygon points="548,280 558,284 548,288" fill="#E08A6A"/>
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="3.2s" begin="0.8s" repeatCount="indefinite"/>
+    </g>
 
-    <rect x="564" y="268" width="110" height="32" rx="6" fill="#151619" stroke="#26282e"/>
-    <text x="619" y="288" text-anchor="middle" font-size="12" fill="#c9cacd">deploy</text>
-    <path d="M680 284 H712" stroke="#5c5e64" stroke-width="1.5" fill="none"/>
-    <polygon points="712,280 722,284 712,288" fill="#5c5e64"/>
+    <g opacity="0.7">
+      <rect x="564" y="268" width="110" height="32" rx="6" fill="#161b26" stroke="#f0c14a" stroke-opacity="0.85"/>
+      <text x="619" y="288" text-anchor="middle" font-size="12" fill="#e8eaed">deploy</text>
+      <path d="M680 284 H712" stroke="#f0c14a" stroke-width="2" fill="none"/>
+      <polygon points="712,280 722,284 712,288" fill="#f0c14a"/>
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="3.2s" begin="1.2s" repeatCount="indefinite"/>
+    </g>
 
-    <rect x="728" y="268" width="140" height="32" rx="6" fill="#1a2220" stroke="#3d5a45"/>
-    <text x="798" y="288" text-anchor="middle" font-size="12" fill="#8fbc8f">OK prod-ish</text>
+    <g opacity="0.85">
+      <rect x="728" y="268" width="140" height="32" rx="6" fill="#14261a" stroke="#56d364"/>
+      <text x="798" y="288" text-anchor="middle" font-size="12" fill="#7ee787">OK prod-ish</text>
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="3.2s" begin="1.6s" repeatCount="indefinite"/>
+    </g>
 
-    <text x="900" y="288" font-size="13" fill="#c9cacd">armed_</text>
+    <text x="900" y="288" font-size="13" fill="#e8eaed">armed<tspan id="cursor" fill="#4C9AE0">|</tspan></text>
+    <animate xlink:href="#cursor" attributeName="opacity" values="1;1;0;0" keyTimes="0;0.45;0.55;1" dur="1.1s" repeatCount="indefinite"/>
   </g>
 </svg>

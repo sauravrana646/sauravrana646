@@ -32,17 +32,7 @@ I turn YAML, caffeine, and mildly concerning terminal sessions into infrastructu
 </p>
 
 <div align="center">
-  <img width="100%" src="assets/arsenal.png" alt="Arsenal terminal - languages, cloud, CI/CD pipeline"/>
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python,bash,linux&theme=dark" alt="Languages and OS"/>
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://skillicons.dev/icons?i=kubernetes,aws,terraform,ansible&theme=dark" alt="Cloud and IaC"/>
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://skillicons.dev/icons?i=jenkins,git,githubactions&theme=dark" alt="CI CD and SCM"/>
+  <img width="100%" src="assets/arsenal.svg" alt="Arsenal terminal - languages, cloud, CI/CD pipeline"/>
 </div>
 
 <img width="100%" src="assets/divider.svg" alt="">
