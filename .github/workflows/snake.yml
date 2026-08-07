@@ -16,13 +16,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # SVG-only: CSS keyframes animate much smoother than GIF frames
       - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake.gif?palette=github-dark&color_background=#0d1117
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4

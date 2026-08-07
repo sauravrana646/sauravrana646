@@ -1,14 +1,8 @@
 <div align="center">
   <img width="100%" src="assets/banner/saurav-rana-banner.svg" alt="Saurav Rana — DevOps">
-
-  <br>
-
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=C9CACD&center=true&vCenter=true&width=720&height=45&lines=Building+for+5+nines%2C+until+DNS+happens" alt="Typing SVG" />
-  </a>
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="">
+<img width="100%" src="assets/divider.svg" alt="">
 
 I turn YAML, caffeine, and mildly concerning terminal sessions into infrastructure that *usually* stays up. Motto stays the same as `motto.txt`:
 
@@ -50,7 +44,7 @@ I turn YAML, caffeine, and mildly concerning terminal sessions into infrastructu
   <img height="170" alt="Coding" src="gifs/tools.gif"/>
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="">
+<img width="100%" src="assets/divider.svg" alt="">
 
 ## 📊 Stats for nerds (the good kind)
 
@@ -75,6 +69,6 @@ I turn YAML, caffeine, and mildly concerning terminal sessions into infrastructu
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sauravrana646/sauravrana646/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sauravrana646/sauravrana646/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution snake" src="https://raw.githubusercontent.com/sauravrana646/sauravrana646/output/github-contribution-grid-snake.gif">
+    <img alt="github contribution snake" src="https://raw.githubusercontent.com/sauravrana646/sauravrana646/output/github-contribution-grid-snake-dark.svg">
   </picture>
 </div>
